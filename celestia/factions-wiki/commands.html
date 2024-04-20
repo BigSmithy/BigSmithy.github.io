@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta content="We are GAMING." name="description" />
+    <meta content="Gæmer" name="author" />
+    <!-- <link rel="shortcut icon" href="../image/logo.png" type="image/x-icon" /> -->
+    <title>Celestia - Commands</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../../image/celestia.png" />
+
+    <!-- css-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css" />
+    <!-- Owl carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="../../css/css/index/zone.css" />
+</head>
+
+<body>
+    <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+        <div class="container is-widescreen">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="../">
+                    <img class="navbar-logo" src="../../image/logo_banner.png"  />
+                </a>
+                <a class="navbar-item" href="../../celestia/site.html">
+                    <img class="navbar-logo" src="../../image/celestia.png"  />
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="sidenav">
+        <a href="./wiki-home.html">Wiki Home</a>
+        <a href="./commands.html">Commands</a>
+        <a href="./mechanics.html">Mechanics</a>
+    </div>
+
+<div style="padding: 90px">
+    <h1 class="h1-data">Factions wiki - Commands</h1>
+    <h2 class="h2-data">Information on commands n shit</h2>
+    <p>you can click on these to show more information by the way</p>
+        <div style="padding: 50px">
+            <h2 class="h2-5-data">General</h2>
+            <details>
+                <summary>/factions create &lt;faction name&gt;</summary>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;💬 Creates a faction with the given name.<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;❔ Requirements: factionless
+                
+                </details>
+                
+                <details>
+                <summary>/factions join &lt;faction name&gt;</summary>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;💬 Joins a faction with that name given it's open or you're invited. <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;❔ Requirements: factionless
+                
+                </details>
+                
+                <details>
+                <summary>/factions leave</summary>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;💬 Leaves your current faction, given that you're not the current owner.<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;❔ Requirements: in a faction, not the owner
+                
+                </details>
+                
+                <details>
+                <summary>/factions info [&lt;faction&gt;]</summary>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;💬 Displays your/another faction's description, members and power levels.
+                
+                </details>
+                
+                <details>
+                <summary>/factions list</summary>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;💬 Displays faction members and power levels for every faction.
+                
+                </details>
+                
+                <details>
+                <summary>/factions map</summary>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;💬 Displays a map in chat of nearby claims.
+                
+                </details>
+                
+                <details>
+                <summary>/factions disband</summary>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;💬 Disbands your current faction, given that you're the owner.<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;❔ Requirements: is owner
+                
+                </details>
+                
+                <details>
+                <summary>/factions safe</summary>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;💬 Opens your faction's safe.<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;❔ Requirements: in a faction
+                
+                </details>
+
+                <br>
+                
+                <h3 class="h3-data">User settings</h3>
+                <details>
+                <summary>/factions settings chat [global|faction|focus]</summary>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;💬 Changes which chat you're currently sending and receiving from.<br> 
+                
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ℹ️ `global` sends to everyone on the server, and receives both `global` and `faction` chats.<br>
+                
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ℹ️ `faction` sends to only your faction members, and receives both `global` and `faction` chats.<br>
+                
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ℹ️ `focus` sends to only your faction members, and receives only your `faction` chat.<br>
+
+                <img src="https://user-images.githubusercontent.com/14541442/124733371-b5754b80-df46-11eb-882b-489379490006.png" alt="chat example">
+                </details>
+                
+                <details>
+                <summary>/factions settings radar</summary>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;💬 Toggles displaying the faction of the chunk you're currently standing inside on the hud.
+                
+                </details>
+                
+                <details>
+                <summary>/factions settings sound [all|warnings|factions|none]</summary>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;💬 Changes what type of sounds the mod will play.<br>
+                
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ℹ️ `all` plays all sounds.<br>
+                
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ℹ️ `warnings` only plays warnings sounds (eg. placing a block inside another factions claim).<br>
+                
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ℹ️ `faction` only plays faction event sounds (eg. faction losing power).<br>
+                
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ℹ️ `none` disables all the sounds.<br>
+                
+                </details>
+
+                <br>
+                
+                <h2 class="h2-5-data">Faction Management</h2>
+                
+                <h3 class="h3-data">Claiming</h3>
+                
+                ❔ Requirements: is at least ranked commander
+                
+                <details>
+                <summary>/factions claim list</summary>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;💬 Lists all your faction claims.<br>
+                
+                </details>
+                
+                <details>
+                <summary>/factions claim add [&lt;size&gt;]</summary>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;💬 Claims the chunk you're standing in, or a radius around it.<br>
+                
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ℹ️ The `size` parameter is limited to a max of 7 (15x15, 225 chunks).<br>
+                
+                </details>
+                
+                <details>
+                <summary>/factions claim remove [&lt;size&gt;|all]</summary>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;💬 Removes the claim on the chunk you're standing in, or a radius around it.<br>
+                
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ℹ️ The `size` parameter is limited to a max of 7 (15x15, 225 chunks).<br>
+                
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:warning: The `all` parameter will remove all claims, be careful!<br>
+                
+                </details>
+                
+                <details>
+                <summary>/factions claim auto</summary>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;💬 Toggles automatically claiming every chunk you walk in.<br>
+                
+                </details>
+                
+                <br>
+
+                <h3 class="h3-data">Home</h3>
+                
+                <details>
+                <summary>/factions home</summary>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;💬 Warps you to your designated faction home.<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;❔ Requirements: in a faction
+                
+                </details>
+                
+                <details>
+                <summary>/factions home set</summary>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;💬 Sets your faction home to your current position.<br>
+                
+                </details>
+                
+                <details>
+                <summary>/factions claim access [increase|decrease]</summary>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;💬 Change the faction rank needed to break blocks, etc. in that claim.<br>
+                
+                </details>
+                
+                <br>
+
+                <h3 class="h3-data">Invite</h3>
+                
+                ❔ Requirements: is at least ranked commander
+                
+                <details>
+                <summary>/factions invite add &lt;player name&gt;</summary>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;💬 Invites that player to join your faction.<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;❔ Requirements: is a leader
+                
+                </details>
+                
+                <details>
+                <summary>/factions invite list</summary>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;💬 Lists all your faction's outgoing invites.<br>
+                
+                </details>
+                
+                <details>
+                <summary>/factions invite remove &lt;player name&gt;</summary>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;💬 Removes that player's invite to your faction.<br>
+                
+                </details>
+
+                <br>
+                <h3 class="h3-data">Rank/Player Management</h3>
+                
+                ❔ Requirements: is ranked leader
+                
+                <details>
+                <summary>/factions rank promote &lt;player name&gt;</summary>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;💬 Promotes a player in your faction.<br>
+                
+                </details>
+                
+                <details>
+                <summary>/factions rank demote &lt;player name&gt;</summary>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;💬 Demotes a player in your faction.<br>
+                
+                </details>
+                
+                <details>
+                <summary>/factions rank transfer &lt;player name&gt;</summary>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;💬 Transfers the ownership of the faction to another player.<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;❔ Requirements: is the faction owner
+                
+                </details>
+                
+                <details>
+                <summary>/factions kick &lt;player name&gt;</summary>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;💬 Kicks a player out of your faction.<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;❔ Requirements: is a leader
+                
+                </details>
+                <br>
+                <h3 class="h3-data">Faction Settings</h3>
+                
+                ❔ Requirements: is ranked leader
+                
+                <details>
+                <summary>/f modify open &lt;true|false&gt;</summary>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;💬 Sets your faction to public (true) or invite only (false).<br>
+                
+                </details>
+                
+                <details>
+                <summary>/f modify description &lt;faction description&gt;</summary>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;💬 Sets your faction description.<br>
+                
+                </details>
+                
+                <details>
+                <summary>/f modify color &lt;color&gt;</summary>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;💬 Sets your faction color.<br>
+                
+                </details>
+                
+                <details>
+                <summary>/f modify motd &lt;motd&gt;</summary>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;💬 Sets your faction motd.<br>
+                
+                </details>
+                
+                <details>
+                <summary>/f modify name &lt;name&gt;</summary>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;💬 Sets your faction name.<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;❔ Requirements: is the faction owner
+                
+                </details>
+
+                <br>
+                <h3 class="h3-data">Faction Relationships</h3>
+                
+                ❔ Requirements: is a leader
+                
+                <details>
+                <summary>/f declare ally &lt;faction name&gt;</summary>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;💬 Declares a faction as an ally.<br>
+                
+                </details>
+                
+                <details>
+                <summary>/f declare neutral &lt;faction name&gt;</summary>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;💬 Declares a faction as neutral.<br>
+                
+                </details>
+                
+                <details>
+                <summary>/f declare enemy &lt;faction name&gt;</summary>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;💬 Declares a faction as an enemy.<br>
+                
+                </details>
+                
+                <br>
+                <h3 class="h3-data">Permissions</h3>
+                
+                <details>
+                <summary>/f permissions [add | remove] &lt;permission name&gt; faction &lt;faction name&gt;</summary>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;💬 Adds or removes a permission from a faction<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;❔ Requirements: is a leader
+                
+                </details>
+                
+                <details>
+                <summary>/f permissions [add | remove] &lt;permission name&gt; guest</summary>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;💬 Adds or removes a permission from all guests in your faction<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;❔ Requirements: is a leader
+                
+                </details>
+        </div>
+
+    <!-- row 2 -->
+    <div class="columns has-text-white has-text-centered">
+        <div class="column"></div>
+    </div>
+    <div class="column"></div>
+
+    <footer class="footer">
+        <div class="footer-holder">
+            <div class="footer-section-1">
+                <img src="../../image/celestia.png" alt="celestia logo" width="240" height="240" />
+                <span class="info-span">
+                    If you have an opinion, shove it up your ugly ass.
+                </span>
+            </div>
+            <div class="footer-section-3"></div>
+        </div>
+    </footer>
+  </body>
+</html>

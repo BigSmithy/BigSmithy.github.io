@@ -419,6 +419,7 @@ body {
 
 footer a {
   text-decoration: none;
+  margin-bottom: 0%;
 }
 
 .footer-holder {
@@ -638,6 +639,17 @@ footer a {
 .h1-data {
   font-size: 60px;
 }
+.h1-data-centered {
+  font-size: 60px;
+  text-align: center;
+}
+
+.h2-data {
+  font-size: 45px;
+}
+.h2-5-data {
+  font-size: 37px;
+}
 
 .h3-data {
   font-size: 30px;
@@ -710,4 +722,42 @@ footer a {
 }
 .fa:hover,.footer-link:hover{
   color: #C2D6D7;
+}
+
+.sidenav {
+  height: 18%; /* Full-height: remove this if you want "auto" height */
+  width: 160px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 55px; /* Stay at the top */
+  right: 10px;
+  background-color: #1F112F; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* Style page content */
+.main {
+  margin-left: 160px; /* Same as the width of the sidebar */
+  padding: 0px 10px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
 }

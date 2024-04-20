@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta content="We are GAMING." name="description" />
+    <meta content="Gæmer" name="author" />
+    <!-- <link rel="shortcut icon" href="../image/logo.png" type="image/x-icon" /> -->
+    <title>Celestia</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../../image/celestia.png" />
+
+    <!-- css-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css" />
+    <!-- Owl carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="../../css/css/index/zone.css" />
+</head>
+
+<body>
+    <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+        <div class="container is-widescreen">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="../">
+                    <img class="navbar-logo" src="../../image/logo_banner.png"  />
+                </a>
+                <a class="navbar-item" href="../../celestia/site.html">
+                    <img class="navbar-logo" src="../../image/celestia.png"  />
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="sidenav">
+        <a href="./wiki-home.html">Wiki Home</a>
+        <a href="./commands.html">Commands</a>
+        <a href="./mechanics.html">Mechanics</a>
+    </div>
+
+<div style="padding: 90px">
+    <h1 class="h1-data">Factions wiki - Mechanics</h1>
+    <h2 class="h2-data">Explanation on how it works</h2>
+        <div style="padding: 50px; font-size: 20px">
+            <h3 class="h3-data">What is Factions?</h3>
+        
+
+ Grow your faction, expand your claims, and storm your enemies for their chunks and loot.<br>
+
+Factions is not a new concept, and has been around for a very long time in some very popular Minecraft servers.<br>
+Born to fix the age old issue in Minecraft of multiplayer server aimless griefing like in Anarchy servers and nullifying any combat like in land claim servers.<br>
+Factions strikes the balance allowing players to freely build whilst maintaining competitive PvP elements.<br>
+
+<br>
+
+<h3 class="h3-data">What is faction power?</h3>
+
+Each faction has a maximum power level (`basePower`) that can only be increased by new members joining the faction.<br>
+
+Factions will lose 4 power if a faction member is killed by other players.<br>
+However, this is not permanent since their power will regenerate for each player in the faction up to their maximum power level at a rate of 1 power per minute.<br>
+Dying will also reset the power regeneration counter for that player.<br>
+
+A factions maximum power is calculated as `MAX = 1200 + (FACTION MEMBER COUNT * 800)`<br><br>
+
+<h3 class="h3-data">What are claims?</h3>
+
+Factions can 'claim' chunks which will remind other players who's land they're in.<br>
+Players can press F3 + G to toggle chunk border visibility.<br>
+Each claim will require the faction to sustain a certain amount of power.<br>
+
+If they do not sustain this required power level,<br>
+then their claims become invalid until their power is either regenerated to their required<br>
+level OR they quickly remove claims so their required power level falls below their current power level.<br>
+For example, if I have 5 claims then my faction will have to sustain a current power level of 5.<br><br>
+
+<h3 class="h3-data">What are ranks?</h3>
+
+Each player within a faction has a rank.<br>
+By default every new player is a "Member" when they join.<br>
+Their rank can be modified by a leader with the /f rank command. (see commands wiki) <br>
+A user's rank determines which claims they have access to.<br>
+For example a claim with an access level of "Commander" would only allow players with the rank of "Commander" and above to access blocks in that chunk.<br>
+There is also a special "Guest" rank which can access chunks with an access level of "Member",<br>
+however,<br>
+they do not have full access.<br>
+Guest's access levels can be changed through the /f permission command. (see commands wiki) <br><br>
+
+The 5 ranks in order of highest to lowest:<br>
+
+1. Owner<br>
+2. Leader<br>
+3. Commander<br>
+4. Member<br>
+5. Guest<br>
+        </div>
+  </body>
+</html>
