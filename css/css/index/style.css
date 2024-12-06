@@ -591,10 +591,9 @@ footer a {
 .top_content {
   display: flex;
   background: url(../../../image/background.svg) no-repeat center;
-  height: 100vh;
-  width: 100%;
-  background-size: 200% 200%;
-  margin-top: 50px;
+  height: 100%;
+  width:auto;
+
 }
 
 .top_content_img {
