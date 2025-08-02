@@ -7046,3 +7046,7 @@ code {
        font-size: 14px;
    }
 }
+
+.light-on-dark {
+    color: wheat
+}
