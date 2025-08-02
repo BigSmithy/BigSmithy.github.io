@@ -1,6 +1,6 @@
 module.exports = function(eleventyConfig) {
 
-    eleventyConfig.addPassthroughCopy("style.css");
+    eleventyConfig.addPassthroughCopy("bundle.css");
     eleventyConfig.addPassthroughCopy("bootstrap.min.css")
     
   };

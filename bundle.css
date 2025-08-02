@@ -35,107 +35,6 @@ Version: 2.1.7
  22 - Responsive
  --------------------------------------------------------------------*/
  
- :root {
-    --bg-light: #201d1e;
-    --bg-dark: #191516;
-}
-
-/**
-colors
-
-*/
-
-/* Green Light */
-svg #svg-ico{fill:#51ae59;}
-svg #svg-concept{stroke:#51ae59;}
-.golink{color:#51ae59 !important;border-bottom:solid 1px #51ae59;}
-.golink:hover{color:#51ae59 !important;}
-.bg-green{background-color:#51ae59 !important;}
-.c-green{color:#51ae59 !important;}
-.bb-pink{border-bottom:solid 1px #51ae59 !important;}
-.popover{border:solid 1px #51ae59;}
-.popover .arrow::before{border-top-color:#51ae59;}
-.popover .popover-header{background-color:#51ae59;}
-::selection{background:#51ae59;}
-.nav-menu .main-menu > .menu-item > .sub-menu > .menu-item a:hover{color:#51ae59;}
-.nav-menu .main-menu .menu-item .menu-large .service-list .service .media-body a:hover{color:#51ae59;}
-.megamenu .start-offer .inner{background-color:#51ae59;}
-.megamenu .service-list .service.special .media-body a:hover{color:#51ae59;}
-.megamenu .service-list .service .media-body a:hover{color:#51ae59;}
-.megamenu-list .service-list .service .media-body a:hover{color:#51ae59;}
-.team .wrapper:hover .team-info .desc{color:#51ae59;}
-.wpc-cloud-range .noUi-connect{background-color:#51ae59;}
-.wpc-cloud-range .noUi-tooltip:before{border-color:#51ae59 transparent transparent transparent;}
-.wpc-cloud-range .noUi-tooltip{background-color:#51ae59;}
-.wpc-cloud-range .noUi-horizontal .noUi-handle{background-color:#51ae59;}
-.wpc-vps-info .title .info{color:#51ae59;}
-.fullrock .closer{color:#51ae59 !important;}
-.form-control:focus{border:solid 1px #51ae59 !important;}
-.sec-bg5{background-color:#51ae59;}
-.total-grad{background:linear-gradient(-60deg, #51ae59 0%,#51ae59 100%) !important;}
-.total-grad-inverse{background:linear-gradient(240deg, #51ae59 0%,#51ae59 100%);}
-.total-grad-pink-blue-intense {background: linear-gradient(240deg, #000000 50%, #003a01 100%);}
-.menu-wrap.force-black{background: #131313;}
-.menu-wrap.fixed{background: #131313;}
-.btn-default-pink{color:#51ae59;border:1px solid #51ae59;}
-.btn-default-pink:hover{background-color:#51ae59;}
-.btn-default-grad-purple-fill{background-image:linear-gradient(to right, #51ae59, #51ae59 40%, #51ae59 40%, #51ae59);}
-.btn-default-grad-purple-fill:hover{background-image:linear-gradient(to right, #51ae59, #51ae59 40%, #51ae59 40%, #51ae59);}
-.btn-green{background-color:#51ae59 !important;}
-.owl-theme .owl-dots .owl-dot.active span{border:solid 1px #51ae59 !important;}
-.pricing .wrapper .title{color:#51ae59;}
-.pricing .list-info{background-color:#292929;}
-.tabs-header .btn-secondary:not(:disabled):not(.disabled).active{background-color:#51ae59 !important;}
-.tabs.offers-tabs .tabs-header .active{border-left:solid 1px #51ae59;color:#51ae59;}
-.tabs.offers-tabs .tabs-header .active:hover{color:#68cef5;}
-.fill-input:focus{border-color:#51ae59 !important;}
-.countdown .wrapper .clock div:first-child{border:solid 1px #51ae59;background-color:#51ae59;}
-.accordion.faq .panel-title.active{border-bottom:solid 1px #51ae59;}
-.blog .sidebar .heading.active{color:#51ae59;}
-.blog .sidebar .posts .tabs-header li.active{color:#51ae59;border-bottom-color:#51ae59;}
-.blog .sidebar .line.active:before{background-color:#51ae59;}
-.blog .media .media-heading a:hover{color:#51ae59;}
-.blog .wrap-blog .social-icon i{color:#51ae59;}
-.blog .sidebar .categories .heading a.active{color:#51ae59;}
-.blog .sidebar .categories .heading a:after{color:#51ae59;}
-.circle-section .title-round{color:#51ae59;}
-.domain-prices li{color:#51ae59;}
-.maping .datacenters{background:#51ae59;}
-.footer .soc-icons i{color:#51ae59;}
-.included i{color:#51ae59;}
-.bigline{border:solid 1px #51ae59;}
-.smallline{border:solid 1px #51ae59;}
-.knowledge a{color:#51ae59;}
-.godown span{color:#51ae59;}
-.cd-filter-block input[type=radio]:checked + label::before, .cd-filter-block input[type=checkbox]:checked + label::before{border:solid 1px #51ae59 !important;background-color:#51ae59 !important;}
-.cd-filter-block select:hover{border:solid 1px #51ae59 !important;}
-.cd-filter-block input:focus,
-.cd-filter-block select:focus{
-    border-color:#51ae59 !important;
-}
-/*.range-slider-input::-webkit-slider-runnable-track{background:#51ae59;}*/
-.range-slider-input::-webkit-slider-thumb{
-    background:#51ae59;
-    margin-top: -5px;
-}
-.zoo-content .icoo i{background-color:#51ae59;}
-.services .service-wrap .pay img{border:solid 1px #51ae59;}
-.page-item.active .page-link{background-color:#51ae59 !important;border-color:#51ae59 !important;}
-.cd-filter-block input.range-slider-input{background-color:#51ae59 !important;}
-/*.range-slider-input::-webkit-slider-thumb{background-color:#51ae59 !important;}
-.range-slider-input::-moz-range-thumb{background-color:#51ae59 !important;}*/
-/* Green Dark */
-.bg-purple{background-color:#51ae59 !important;}
-.c-purple{color:#51ae59 !important;}
-.sec-grad-white-to-purple{background:linear-gradient(90deg, #fff 70%, #51ae59 0%) !important;}
-.btn-default-purple{color:#51ae59;border:1px solid #51ae59;}
-.btn-default-purple:hover{background-color:#51ae59;}
-.btn-default-purple-fill{background-color:#51ae59 !important;}
-.pricing .table .title{color:#51ae59;}
-.accordion.faq .panel-title.active{color:#51ae59 !important;}
-.wpc-vps-info .price-wrap .title{background-color:#51ae59;}
-
-
 /*-----------------------------------
     1 - General
 ------------------------------------*/
@@ -147,7 +46,7 @@ html {
 body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background-color: #191516;
+    background-color: #1083b0;
     color: #eee;
     font-family: 'Open Sans', sans-serif;
 }
@@ -706,7 +605,7 @@ input:-webkit-autofill {
 
 .nav-menu {
     position: relative;
-    width: 100%;
+    width: 80%;
     z-index: 9;
 }
 
@@ -1032,9 +931,11 @@ a.plans.badge.feat:hover {
 
 .menu-wrap {
     position: absolute;
-    width: 100%;
+    width: 80%;
+    margin-left: 10%;
     padding: 25px 0px 20px 0px;
-    background-color: transparent;
+    /* background-color: transparent; */
+    border-radius: 25px;
     z-index: 9;
     -webkit-transition: 0.3s;
     -moz-transition: 0.3s;
